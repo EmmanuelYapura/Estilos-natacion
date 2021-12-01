@@ -1,0 +1,84 @@
+.barra {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 35px;
+    background-color: rgba(1, 86, 119, 0.90);
+}
+
+
+.barra a {
+    color: white;
+}
+
+.barra a i {
+    font-size: 25px;
+}
+
+.separador {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.separador h1 {
+    margin-top: 5px;
+    font-family: 'Stick No Bills', sans-serif;
+    text-decoration: underline;
+}
+
+.separador p {
+    font-family: 'Mukta', sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.separador h2 {
+    font-family: 'Ephesis', cursive;
+    font-size: 2.3rem;
+}
+
+.contenedor-1 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: rgba(57, 158, 241, 0.993);
+}
+
+.contenedor-1 * {
+    background-color: rgba(57, 158, 241, 0.993);
+    color: whitesmoke;
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-1 p {
+    display: flex;
+    justify-content: center;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario-inp input {
+    margin: 5px 5px;
+}
+
+i {
+    font-size: 15px;
+}
