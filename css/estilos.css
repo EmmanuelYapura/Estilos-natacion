@@ -57,6 +57,11 @@
 .card-title {
     display: flex;
     justify-content: center;
+   font-family: monospace;
+}
+
+.card-text, .list-group-item{
+    font-family:'Times New Roman', Times, serif;
 }
 
 .contenedor-1 p {
